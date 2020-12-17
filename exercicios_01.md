@@ -37,40 +37,42 @@
 	calculaFatorial(6) //retorna 720
 	
 /* 5) Com o array de objetos de cidades descrito abaixo, precisamos extrair alguns relatórios: */
-const cidades = [{
-  "nome": "Salvador",
-  "estado": "BA",
-  "populacao": 30000
-}, {
-  "nome": "São Paulo",
-  "estado": "SP",
-  "populacao": 10000
-}, {
-  "nome": "Rio de Janeiro",
-  "estado": "RJ",
-  "populacao": 20000
-}, {
-  "nome": "Curitiba",
-  "estado": "PR",
-  "populacao": 15000
-}, {
-  "nome": "Porto Alagre",
-  "estado": "RS",
-  "populacao": 25000
-}, {
-  "nome": "Porto Seguro",
-  "estado": "BA",
-  "populacao": 5000
-},
-{
-  "nome": "Santo André",
-  "estado": "SP",
-  "populacao": 8000
-}, {
-  "nome": "Macaé",
-  "estado": "RJ",
-  "populacao": 3000
-}]
+	```
+	const cidades = [{
+	  "nome": "Salvador",
+	  "estado": "BA",
+	  "populacao": 30000
+	}, {
+	  "nome": "São Paulo",
+	  "estado": "SP",
+	  "populacao": 10000
+	}, {
+	  "nome": "Rio de Janeiro",
+	  "estado": "RJ",
+	  "populacao": 20000
+	}, {
+	  "nome": "Curitiba",
+	  "estado": "PR",
+	  "populacao": 15000
+	}, {
+	  "nome": "Porto Alagre",
+	  "estado": "RS",
+	  "populacao": 25000
+	}, {
+	  "nome": "Porto Seguro",
+	  "estado": "BA",
+	  "populacao": 5000
+	},
+	{
+	  "nome": "Santo André",
+	  "estado": "SP",
+	  "populacao": 8000
+	}, {
+	  "nome": "Macaé",
+	  "estado": "RJ",
+	  "populacao": 3000
+	}]
+	```
 /* 	a) Cria uma função que retorne apenas o(s) NOME(S) de todas as cidades, sendo filtradas por estado */
   function cidadesPorEstado(estado) {
 		// escreva sua função aqui
